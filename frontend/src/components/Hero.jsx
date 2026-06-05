@@ -11,7 +11,7 @@ import {
     TrendingUp,
     MessageCircle
 } from 'lucide-react';
-import CountdownTimer from './CountDownTimer';
+import CountdownTimer from './CountdownTimer';
 
 export default function Hero() {
     const handleBookTrial = () => {

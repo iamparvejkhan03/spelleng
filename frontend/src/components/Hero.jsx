@@ -125,6 +125,7 @@ export default function Hero() {
                             <div className="relative bg-white rounded-2xl p-2 border border-gray-200 shadow-xl">
                                 <img
                                     src={heroImg}
+                                    loading='eager'
                                     alt="Student celebrating English success"
                                     className="w-full h-auto rounded-xl object-cover"
                                     style={{ aspectRatio: '16/11' }}

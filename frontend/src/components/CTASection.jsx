@@ -55,15 +55,15 @@ const CTASection = () => {
 
                   {/* Main Heading with linear */}
                   <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-3 bg-linear-to-r from-white to-gray-300 bg-clip-text text-transparent">
-                    Achhi Job Ke Liye Sirf Skills Nahi,<br />
+                    For a good job, not just skills,<br />
                     <span style={{ color: '#09B850' }} className="bg-none bg-clip-border text-transparent">
-                      Communication Bhi Zaroori Hai
+                      communication is also important.
                     </span>
                   </h2>
                   
                   {/* Subheading */}
                   <p className="text-sm md:text-lg text-gray-300 mb-6 max-w-2xl mx-auto">
-                    English speaking confidence build karne ki journey aaj start kijiye.
+                    Start your journey to build English speaking confidence today.
                   </p>
 
                   {/* Price Badge - Animated */}
@@ -82,7 +82,7 @@ const CTASection = () => {
                       onClick={() => window.location.href = 'https://pages.razorpay.com/spelleng'}
                       className="group bg-linear-to-r from-[#09B850] to-emerald-600 hover:from-[#08a048] hover:to-emerald-700 text-white font-bold py-3 px-4 sm:px-8 rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg inline-flex items-center gap-2 cursor-pointer text-sm"
                     >
-                      🚀 Aaj Hi 1-on-1 Class Try Karo
+                      🚀 Try a 1-on-1 class today
                       <MessageCircle size={18} className="group-hover:rotate-12 transition-transform" />
                     </button>
                   </div>

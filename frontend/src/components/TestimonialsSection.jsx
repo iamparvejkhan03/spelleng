@@ -48,7 +48,7 @@ const TestimonialsSection = () => {
               Real Students. <span style={{ color: '#09B850' }}>Real Results.</span>
             </h2>
             <p className="text-gray-600 text-sm max-w-2xl mx-auto">
-              Dekho kaise humare students ne apni English improve ki
+              See how our students improved their English.
             </p>
           </div>
 

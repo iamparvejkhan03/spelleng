@@ -55,9 +55,8 @@ export default function Hero() {
                             {/* <span className="italic">Lekin</span> Bol Nahi Pate? */}
                         </h1>
 
-                        <p className="text-sm sm:text-lg text-gray-600 mt-4 max-w-lg mx-auto lg:mx-0 leading-relaxed">
-                            Meeting and Interview mein English samajh toh aati hain.
-                            Lekin jab bolne ki baari aati hai, toh confidently bol nahi pate? Uske liye SpellEng hai na! Join now.
+                        <p className="text-sm sm:text-base text-gray-600 mt-4 max-w-lg mx-auto lg:mx-0 leading-relaxed">
+                            You can understand English during meetings and interviews, but when it's time to speak, you don't feel confident? Don't worry—SpellEng can help. Join now and start speaking English with confidence!
                         </p>
 
                         <CountdownTimer />

@@ -18,7 +18,7 @@ const CountdownTimer = () => {
         const nextReset = new Date(now);
 
         // Add 27 minutes to current time
-        nextReset.setMinutes(now.getMinutes() + 27);
+        nextReset.setMinutes(now.getMinutes() + 37);
         nextReset.setSeconds(0);
         nextReset.setMilliseconds(0);
 

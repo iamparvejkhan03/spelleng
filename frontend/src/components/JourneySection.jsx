@@ -15,42 +15,42 @@ const JourneySection = () => {
     const steps = [
         {
             id: 1,
-            title: "Aaj Aap Yahan Ho",
+            title: "Today, You Are Here",
             icon: "😶",
-            description: "English samajhte ho, padh lete ho, par bol nahi paate",
-            pain: "Confidence kam, words atakna, nervous feeling",
+            description: "You understand English and can read it, but you struggle to speak it.",
+            pain: "Low confidence, words getting stuck, nervous feeling.",
             status: "current"
         },
         {
             id: 2,
             title: "Practice Start",
             icon: "🗣️",
-            description: "Regular speaking practice with conversations & guidance",
-            benefit: "Hesitation kam hone lagti hai",
+            description: "Regular speaking practice with conversations & guidance.",
+            benefit: "Hesitation starts reducing.",
             status: "upcoming"
         },
         {
             id: 3,
             title: "Confidence Build",
             icon: "💪",
-            description: "Chhote answers confidently dene lagte ho",
-            benefit: "English se bachna band, thoughts express karne lagte ho",
+            description: "You start answering in short sentences confidently.",
+            benefit: "You stop avoiding English and start expressing your thoughts.",
             status: "upcoming"
         },
         {
             id: 4,
             title: "Real Life Apply",
             icon: "💼",
-            description: "Interviews, meetings, calls me use karna start",
-            benefit: "Practice class tak limited nahi rehti",
+            description: "You start using English in interviews, meetings, and calls.",
+            benefit: "Your practice is no longer limited to the classroom.",
             status: "upcoming"
         },
         {
             id: 5,
             title: "Opportunities Ready",
             icon: "🎯",
-            description: "Apni baat confidently rakh paate ho",
-            benefit: "Better opportunities capture karne ke liye prepare",
+            description: "You can confidently express your thoughts.",
+            benefit: "You become ready to capture better opportunities.",
             status: "upcoming"
         }
     ];

@@ -4,17 +4,17 @@ import { Users, User, X, Check, MessageCircle, Zap, Calendar, ArrowRight } from 
 
 const ComparisonSection = () => {
   const traditionalProblems = [
-    "Kam bolne ka mauka",
-    "Personal feedback nahi milta",
-    "Class me chup rehna easy hai",
-    "Sabki speed alag hoti hai"
+    "Less chance to speak",
+    "No personal feedback",
+    "It’s easy to stay silent in class",
+    "Everyone learns at a different speed"
   ];
 
   const spellengBenefits = [
-    "Zyada speaking time",
+    "More speaking time",
     "Personal feedback",
-    "Weak areas pe focus",
-    "Apni speed se seekho",
+    "Focus on your weak areas",
+    "Learn at your own pace",
   ];
 
   const comparisonTable = [
@@ -30,19 +30,19 @@ const ComparisonSection = () => {
   };
 
   return (
-    <section className="pt-14 md:pt-20 pb-10 md:pb-10 bg-linear-to-b from-white to-gray-50 overflow-hidden">
+    <section className="pt-14 md:pt-14 pb-10 md:pb-10 bg-linear-to-b from-white to-gray-50 overflow-hidden">
       <Container>
         {/* Section Header */}
         <div className="text-center mb-12">
           <div className="inline-flex items-center gap-2 bg-white shadow-sm rounded-full px-4 py-1.5 mb-4 border border-gray-200">
             <Zap size={16} style={{ color: '#09B850' }} />
-            <span className="text-sm font-medium" style={{ color: '#09B850' }}>Kyuki SpellEng alag hai</span>
+            <span className="text-sm font-medium" style={{ color: '#09B850' }}>Why Choose SpellEng?</span>
           </div>
           <h2 className="text-2xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-            One-on-One <span style={{ color: '#09B850' }}>Attention</span> Kyun Zaroori Hai?
+            Why is One-on-One <span style={{ color: '#09B850' }}>Attention</span> Important?
           </h2>
           <p className="text-gray-600 text-sm max-w-2xl mx-auto">
-            Aapki progress class me kitne students hain, ispe depend nahi honi chahiye
+            Your progress depends on how many students are in the class.
           </p>
         </div>
 
@@ -71,16 +71,16 @@ const ComparisonSection = () => {
                 <div className="w-8 h-8 rounded-full bg-red-100 flex items-center justify-center">
                   <Users size={16} className="text-red-600 shrink-0" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-800">Purane tarike ke institutes mein</h3>
+                <h3 className="text-lg font-semibold text-gray-800">Old-style physical institutes</h3>
               </div>
 
               <p className="text-gray-600 mb-4">
-                👥 <span className="font-semibold">20–30 students</span> ek saath padhte hain.
+                👥 <span className="font-semibold">20–30 students</span> learn together in one class.
                 <br className='hidden sm:block' />
-                Teacher ko sabko sambhalna padta hai.
+                The teacher has to manage everyone at once.
               </p>
 
-              <p className="text-gray-700 font-medium mb-3">Isliye:</p>
+              <p className="text-gray-700 font-medium mb-3">Because of this:</p>
 
               <div className="space-y-2">
                 {traditionalProblems.map((problem, idx) => (
@@ -120,16 +120,16 @@ const ComparisonSection = () => {
                 <div className="w-8 h-8 rounded-full flex items-center justify-center" style={{ backgroundColor: '#09B85020' }}>
                   <User size={16} style={{ color: '#09B850' }} />
                 </div>
-                <h3 className="text-lg font-bold" style={{ color: '#09B850' }}>SpellEng mein</h3>
+                <h3 className="text-lg font-bold" style={{ color: '#09B850' }}>SpellEng</h3>
               </div>
 
               <p className="text-gray-600 mb-4">
                 👨‍🏫 <span className="font-semibold">Live 1-on-1 Classes</span>
                 <br className='hidden sm:block' />
-                Tutor sirf tumpe focus karta hai.
+                The tutor focuses only on you.
               </p>
 
-              <p className="text-gray-700 font-medium mb-3">Iska matlab:</p>
+              <p className="text-gray-700 font-medium mb-3">This means:</p>
 
               <div className="space-y-2">
                 {spellengBenefits.map((benefit, idx) => (

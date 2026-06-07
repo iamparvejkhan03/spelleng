@@ -17,7 +17,7 @@ const Header = () => {
     };
 
     const handleBookTrial = () => {
-        window.location.href = 'https://pages.razorpay.com/spelleng';
+        // window.location.href = 'https://pages.razorpay.com/spelleng';
     };
 
     return (
@@ -28,12 +28,12 @@ const Header = () => {
                 </Link>
 
                 <button
-                    onClick={handleBookTrial}
+                    onClick={() => scrollTo({top: 0, behavior: 'smooth'})}
                     className="group hidden w-full sm:w-auto sm:inline-flex items-center justify-center gap-2 text-white font-medium py-2.5 px-8 rounded-lg text-base cursor-pointer shadow-lg"
                     style={{ backgroundColor: '#09B850' }}
                 >
                     <Calendar size={20} />
-                    Book Your Trial
+                    Book Your Trial Class
                     <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
                 </button>
             </Container>

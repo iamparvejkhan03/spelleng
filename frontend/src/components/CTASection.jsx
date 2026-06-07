@@ -67,19 +67,19 @@ const CTASection = () => {
                   </p>
 
                   {/* Price Badge - Animated */}
-                  <div className="inline-flex items-center gap-3 bg-white/5 backdrop-blur-sm rounded-full text-sm sm:text-base px-4 py-2 mb-6 border border-white/10">
+                  {/* <div className="inline-flex items-center gap-3 bg-white/5 backdrop-blur-sm rounded-full text-sm sm:text-base px-4 py-2 mb-6 border border-white/10">
                     <TrendingUp size={16} style={{ color: '#09B850' }} />
                     <span className="text-gray-300 text-sm hidden sm:block">Limited Offer</span>
                     <span className="text-white font-bold text-xs sm:text-sm">First Class at</span>
                     <span className="text-gray-400 line-through text-sm">₹599</span>
                     <span className="text-2xl font-bold" style={{ color: '#09B850' }}>₹102</span>
                     <span className="text-green-400 text-xs animate-pulse">🔥 83% OFF</span>
-                  </div>
+                  </div> */}
 
                   {/* CTA Button Group */}
                   <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
                     <button
-                      onClick={() => window.location.href = 'https://pages.razorpay.com/spelleng'}
+                      onClick={() => scrollTo({top: 0, behavior: 'smooth'})}
                       className="group bg-linear-to-r from-[#09B850] to-emerald-600 hover:from-[#08a048] hover:to-emerald-700 text-white font-bold py-3 px-4 sm:px-8 rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg inline-flex items-center gap-2 cursor-pointer text-sm"
                     >
                       🚀 Try a 1-on-1 class today

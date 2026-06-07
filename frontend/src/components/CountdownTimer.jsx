@@ -126,12 +126,12 @@ const CountdownTimer = () => {
             {/* Purchase button - from your image */}
             <div className="mt-6 sm:mt-8">
                 <button
-                    onClick={handleBookTrial}
+                    onClick={() => scrollTo({top: 0, behavior: 'smooth'})}
                     className="group w-full sm:w-full inline-flex items-center justify-center gap-2 text-white font-semibold py-3 px-4 sm:px-10 rounded-xl text-sm sm:text-base shadow-lg cursor-pointer"
                     style={{ backgroundColor: '#09B850' }}
                 >
                     <Calendar size={20} />
-                    Book Your Trial at ₹102
+                    Book Your Trial Class
                     <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
                 </button>
                 <p className="text-gray-500 text-xs sm:text-sm mt-3 flex items-center justify-center lg:justify-center gap-2 text-center">

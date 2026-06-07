@@ -213,7 +213,7 @@ const JourneySection = () => {
                                 )}
                                 {activeStep === 5 && (
                                     <button
-                                        onClick={() => window.location.href = 'https://pages.razorpay.com/spelleng'}
+                                        onClick={() => scrollTo({top: 0, behavior: 'smooth'})}
                                         className="px-4 py-2 cursor-pointer text-white rounded-lg transition text-sm flex items-center gap-2 animate-pulse"
                                         style={{ backgroundColor: '#09B850' }}
                                     >
@@ -229,12 +229,12 @@ const JourneySection = () => {
                 <div className="hidden sm:block mt-8 text-center">
                     {/* CTA Button */}
                     <button
-                        onClick={handleBookTrial}
+                        onClick={() => scrollTo({top: 0, behavior: 'smooth'})}
                         className="group w-full sm:w-auto inline-flex items-center justify-center gap-2 text-white font-bold py-4 px-10 rounded-xl text-lg transition-all duration-300 transform hover:scale-105 shadow-lg cursor-pointer"
                         style={{ backgroundColor: '#09B850' }}
                     >
                         <Calendar size={20} />
-                        Book Your Trial at ₹102
+                        Book Your Trial Class
                         <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
                     </button>
                 </div>
@@ -243,12 +243,12 @@ const JourneySection = () => {
                 <div className="block sm:hidden mt-8 text-center">
                     {/* CTA Button */}
                     <button
-                        onClick={handleBookTrial}
+                        onClick={() => scrollTo({top: 0, behavior: 'smooth'})}
                         className="group w-full sm:w-auto inline-flex items-center justify-center gap-2 text-white font-bold py-4 px-4 sm:px-10 rounded-xl text-sm transition-all duration-300 transform hover:scale-105 shadow-lg cursor-pointer"
                         style={{ backgroundColor: '#09B850' }}
                     >
                         <Calendar size={20} />
-                        Book Your Trial at ₹102
+                        Book Your Trial Class
                         <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
                     </button>
                 </div>

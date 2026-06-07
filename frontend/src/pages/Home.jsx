@@ -14,9 +14,14 @@ function Home() {
     return (
         <>
             <Hero />
+
             <Suspense fallback={<Loader className="animate-spin w-full text-center" />}>
-                <ProblemSection />
+                <TestimonialsSection />
             </Suspense>
+            
+            {/* <Suspense fallback={<Loader className="animate-spin w-full text-center" />}>
+                <ProblemSection />
+            </Suspense> */}
 
             <Suspense fallback={<Loader className="animate-spin w-full text-center" />}>
                 <JourneySection />
@@ -24,10 +29,6 @@ function Home() {
 
             <Suspense fallback={<Loader className="animate-spin w-full text-center" />}>
                 <ComparisonSection />
-            </Suspense>
-
-            <Suspense fallback={<Loader className="animate-spin w-full text-center" />}>
-                <TestimonialsSection />
             </Suspense>
 
             <Suspense fallback={<Loader className="animate-spin w-full text-center" />}>

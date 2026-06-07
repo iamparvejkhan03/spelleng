@@ -33,7 +33,7 @@ const Header = () => {
                     style={{ backgroundColor: '#09B850' }}
                 >
                     <Calendar size={20} />
-                    Try first class at ₹102
+                    Book Your Trial
                     <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
                 </button>
             </Container>

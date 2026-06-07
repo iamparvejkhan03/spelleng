@@ -36,7 +36,7 @@ const TestimonialsSection = () => {
 
   return (
     <>
-      <section className="pb-16 md:pb-20 bg-linear-to-b from-gray-50 to-white">
+      <section className="py-16 md:pb-20 md:pt-0 bg-linear-to-b from-gray-50 to-white">
         <Container>
           {/* Section Header */}
           <div className="text-center mb-8 md:mb-12">

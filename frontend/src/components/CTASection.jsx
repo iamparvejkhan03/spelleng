@@ -8,7 +8,7 @@ const CTASection = () => {
 
   return (
     <>
-      <section className="relative pt-24 md:pt-56 pb-12 md:pb-8 bg-linear-to-b from-white via-gray-50 to-white overflow-visible">
+      <section className="relative pt-24 md:pt-64 xl:pt-72 pb-12 md:pb-8 bg-linear-to-b from-white via-gray-50 to-white overflow-visible">
         <Container>
           {/* CTA Card with Video Overlap */}
           <div className="relative">

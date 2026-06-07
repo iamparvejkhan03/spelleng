@@ -152,7 +152,7 @@ const ComparisonSection = () => {
                     style={{ backgroundColor: '#09B850' }}
                 >
                     <Calendar size={20} />
-                    Try first class at <span className='line-through'>599</span> ₹102
+                    Book Your Trial at ₹102
                     <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
                 </button>
         </div>

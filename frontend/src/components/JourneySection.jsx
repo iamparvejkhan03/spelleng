@@ -84,7 +84,7 @@ const JourneySection = () => {
     };
 
     return (
-        <section ref={sectionRef} className="pt-10 md:pt-20 bg-linear-to-b from-gray-50 to-white">
+        <section ref={sectionRef} className="bg-linear-to-b from-gray-50 to-white">
             <Container>
                 {/* Header */}
                 <div className="text-center mb-10">
@@ -234,7 +234,7 @@ const JourneySection = () => {
                         style={{ backgroundColor: '#09B850' }}
                     >
                         <Calendar size={20} />
-                        Try first class at <span className='line-through'>599</span> ₹102
+                        Book Your Trial at ₹102
                         <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
                     </button>
                 </div>
@@ -248,7 +248,7 @@ const JourneySection = () => {
                         style={{ backgroundColor: '#09B850' }}
                     >
                         <Calendar size={20} />
-                        Try first class at <span className='line-through'>599</span> ₹102
+                        Book Your Trial at ₹102
                         <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
                     </button>
                 </div>

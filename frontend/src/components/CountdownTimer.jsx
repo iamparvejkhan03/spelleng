@@ -131,7 +131,7 @@ const CountdownTimer = () => {
                     style={{ backgroundColor: '#09B850' }}
                 >
                     <Calendar size={20} />
-                    Try first class at <span className='line-through'>599</span> ₹102
+                    Book Your Trial at ₹102
                     <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
                 </button>
                 <p className="text-gray-500 text-xs sm:text-sm mt-3 flex items-center justify-center lg:justify-center gap-2 text-center">

@@ -164,7 +164,7 @@ const BookingForm = () => {
                                 ? 'border-red-500 focus:ring-red-500'
                                 : 'border-gray-300 focus:ring-[#09B850] focus:border-[#09B850]'
                                 }`}
-                            placeholder="9876543210"
+                            placeholder="9876XXXXXX"
                             inputMode="numeric"
                         />
                     </div>

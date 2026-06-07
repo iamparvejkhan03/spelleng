@@ -42,7 +42,7 @@ const ThankYou = () => {
                     {/* CTA Buttons */}
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <button
-                            onClick={() => window.open('https://wa.link/qa1tf2', '_blank')}
+                            onClick={() => window.open('https://wa.link/z55k5h', '_blank')}
                             className="bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 inline-flex items-center justify-center gap-2"
                         >
                             <MessageCircle size={18} />

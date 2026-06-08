@@ -35,25 +35,22 @@ const BookingForm = () => {
                     email: data.email,
                     whatsapp: data.whatsapp,
                     timestamp: new Date().toISOString()
-                },
-                {
-                    headers: {
-                        'Content-Type': 'application/json'
-                    }
                 }
             );
 
-            setIsSubmitting(false);
-            setIsSuccess(true);
-            // Reset form after 3 seconds
-            setTimeout(() => {
-                setIsSuccess(false);
-                navigate('/thank-you');
-            reset();
-            }, 1000);
+            if (response.data?.success) {
+                reset(); // Reset first
+                setIsSuccess(true);
+
+                // Then redirect
+                setTimeout(() => {
+                    window.location.href = "https://pages.razorpay.com/spelleng";
+                }, 500);
+            }
 
         } catch (error) {
             console.error('❌ Error:', error.response?.data || error.message);
+        } finally {
             setIsSubmitting(false);
         }
     };
@@ -187,7 +184,7 @@ const BookingForm = () => {
                     ) : (
                         <>
                             <Send size={18} />
-                            Book Trial Class
+                            Book Trial Class @ ₹102
                         </>
                     )}
                 </button>

@@ -62,7 +62,7 @@ export default function Hero() {
                         </h1>
 
                         <p className="text-sm sm:text-base text-gray-600 mt-4 max-w-lg mx-auto lg:mx-0 leading-relaxed">
-                            Don't let poor communication hide your skills. Learn to express your ideas confidently in English through live 1-on-1 speaking practice. Book your Trial Class now.
+                            Don't let poor communication hide your skills. Learn to express your ideas confidently in English through live 1-on-1 speaking practice. Book your Trial Class @ ₹102 now.
                         </p>
 
                         {/* <CountdownTimer /> */}

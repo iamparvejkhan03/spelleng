@@ -79,7 +79,7 @@ const CTASection = () => {
                   {/* CTA Button Group */}
                   <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
                     <button
-                      onClick={() => scrollTo({top: 0, behavior: 'smooth'})}
+                      onClick={() => scrollTo({top: 150, behavior: 'smooth'})}
                       className="group bg-linear-to-r from-[#09B850] to-emerald-600 hover:from-[#08a048] hover:to-emerald-700 text-white font-bold py-3 px-4 sm:px-8 rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg inline-flex items-center gap-2 cursor-pointer text-sm"
                     >
                       🚀 Try a 1-on-1 class today

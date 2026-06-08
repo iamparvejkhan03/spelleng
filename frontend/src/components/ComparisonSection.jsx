@@ -152,7 +152,7 @@ const ComparisonSection = () => {
                     style={{ backgroundColor: '#09B850' }}
                 >
                     <Calendar size={20} />
-                    Book Your Trial Class
+                    Book Trial Class @ ₹102
                     <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
                 </button>
         </div>

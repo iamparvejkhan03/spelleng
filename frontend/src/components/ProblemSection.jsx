@@ -75,7 +75,7 @@ const ProblemSection = () => {
                 {problem.title}
               </p>
               <button
-                onClick={() => window.location.href = 'https://pages.razorpay.com/spelleng'}
+                onClick={() => scrollTo({top: 150, behavior: 'smooth'})}
                 type="button"
                 className="bg-[#09B850] hover:bg-[#08a048] transition cursor-pointer mt-4 mb-0 px-2 py-2 font-medium flex items-center justify-center rounded-md text-white text-sm shadow-md hover:shadow-lg w-full"
               >
@@ -87,7 +87,7 @@ const ProblemSection = () => {
 
         {/* Bottom Trust Message */}
         <div className="hidden sm:block mt-12 text-center">
-          <div onClick={() => window.location.href = 'https://pages.razorpay.com/spelleng'} className="cursor-pointer inline-flex items-center gap-3 bg-white border border-gray-200 rounded-full px-6 py-3 shadow-sm">
+          <div onClick={() => scrollTo({top: 150, behavior: 'smooth'})} className="cursor-pointer inline-flex items-center gap-3 bg-white border border-gray-200 rounded-full px-6 py-3 shadow-sm">
             <span className="text-3xl">👉</span>
             <span className="text-gray-700 font-medium">
               Ever faced these problems? — <span style={{ color: '#09B850' }} className="font-bold">Join SpellEng</span>
@@ -98,7 +98,7 @@ const ProblemSection = () => {
 
         {/* Bottom Trust Message */}
         <div className="block sm:hidden mt-8 text-center">
-          <div onClick={() => window.location.href = 'https://pages.razorpay.com/spelleng'} className="cursor-pointer inline-flex items-end gap-3 bg-white border border-gray-200 rounded-full px-6 pb-2 shadow-sm">
+          <div onClick={() => scrollTo({top: 150, behavior: 'smooth'})} className="cursor-pointer inline-flex items-end gap-3 bg-white border border-gray-200 rounded-full px-6 pb-2 shadow-sm">
             <span className="text-xl">👉</span>
             <span className="text-gray-700 font-medium">
               <span style={{ color: '#09B850' }} className="font-semibold text-sm">Join SpellEng</span>
